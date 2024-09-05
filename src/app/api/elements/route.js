@@ -7,7 +7,6 @@ export async function GET() {
     const filePath = path.join(
       process.cwd(),
       "src",
-      "app",
       "data",
       "elements.json"
     );
